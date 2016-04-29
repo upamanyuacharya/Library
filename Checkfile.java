@@ -1,0 +1,1 @@
+import java.io.File;class Checkfile{    public static boolean fileExist(String n)    {        if (new File("LibraryCards\\"+n+".txt").exists())            return true;        else            return false;    }}
